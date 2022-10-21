@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="app.js"></script>
+    <title>Mug Coffee</title>
+</head>
+<body>
+    <div class="continaer">
+        <div class="header">
+            <div class="logo">
+                <img src="imges/logo.webp">
+            </div>
+
+            <nav >
+                <ul class="sidemenu">
+                    <li> <a href="#">HOME </a></li>
+                    <li> <a href="#menu"> MENU</a></li>
+                    <li> <a href="#footer">CONTACT </a></li>
+                    <li> <a href="#footer"> ABOUT US</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+
+
+<div class="main">
+            <h1> Mug Coffee & Roastery </h1>
+
+           
+            <a href="#menu">
+                <button class="btn" >Menu</button>
+            </a>
+        </div>
+
+
+        <div class="menu" id="menu">
+
+
+
+    <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('blackcoffee')">Black Coffee</p>
+        <p class="tab-links" onclick="opentab('Jouice')">Jouice</p>
+        <p class="tab-links" onclick="opentab('Coffeemilk')">Coffee With Milk</p>
+            </div>
+
+
+            <div class="tab-contents active-tab" id="blackcoffee">
+                <ul>
+                  <li>  <span>Chemex</span> <img src='imges/menu-1.png'> </li> 
+                  <li>  <span>Amricano</span><img src='imges/menu-1.png'></li> 
+                  <li>  <span>Turkish Coffee</span><img src='imges/menu-1.png'></li> 
+                  <li>  <span>Cold Brew</span><img src='imges/menu-1.png'></li> 
+
+                </ul>
+            </div>
+            
+            
+            
+            <div class="tab-contents" id="Jouice">
+                <ul>
+                    <li>  <span>Jouice</span><img src='imges/menu-1.png'></li> 
+                    <li>  <span>Mango</span><img src='imges/menu-1.png'></li> 
+                    <li>  <span>Mango</span><img src='imges/menu-1.png'></li> 
+                    <li>  <span>Cold Brew</span><img src='imges/menu-1.png'></li> 
+                </ul>
+            </div>
+            
+            
+            
+            <div class="tab-contents" id="Coffeemilk">
+                <ul>
+                    <li>  <span>Latee</span><img src='imges/menu-1.png'></li> 
+                    <li>  <span>Matcha Latee</span><img src='imges/menu-1.png'></li> 
+                    <li>  <span>Mango</span><img src='imges/menu-1.png'></li> 
+                    <li>  <span>Flat white </span><img src='imges/menu-1.png'></li> 
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer" id="footer">
+
+
+            <div class="col1">
+         <h1>About  us </h1>
+           <p>Specialty Coffee Roastery</p>
+            </div>
+
+            <div class="col2">
+
+  <h1>Contact us</h1>
+                <span> <i class="fa-regular fa-mobile"></i> +1 (0)123 456 7890 </span>
+                <a><i class="fa-solid fa-envelope"></i>  info@gettemplates.co </a>
+     
+<div> <a href=""><i class="fab fa-twitter"></i> </a>
+    <a><i class="fa-brands fa-facebook"></i> </a></div>
+    
+
+                
+  
+     
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
