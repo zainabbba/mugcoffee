@@ -171,12 +171,12 @@ transition:  0.5s;
     background: #cce5ff;
     list-style-type: none;
     text-align: center;
-    padding-bottom:20%;
-
-
-height: 10vh;
+background-color: #cce5ff;
+margin-top:5%;
+padding-bottom:20%;
+height: 0vh;
 width: 100%;
-    margin: 10px 5px;
+    /* margin: 10px 5px; */
 }
 
 .tab-links.active-link::after{
@@ -189,16 +189,19 @@ width: 100%;
     display: block;
     list-style-type: none;
     }
-    .tab-contents span{
+  
+    ul li{
         color: #ff004f;
+
+        margin-top:0%;
         
     }
 
-    ul img{
-        width: 20%;
-        height: 10vh;
- 
-       
+    .tab-contents ul li img{
+     
+ margin-top: 4%;
+ width: 10%;
+ height: 5vh;
         border-radius: 20%;
         margin-left: 50%;
 
@@ -224,7 +227,7 @@ width: 100%;
             display: flex;
             flex-direction: column;
     
-            padding: 30px 10px;
+            padding: 0px 10px;
         }
     
 
@@ -275,7 +278,7 @@ nav .fa-times{
         .tab-contents ul li{
             background: #cce5ff;
             list-style-type: none;
-           
+
             padding-bottom: 20%;
      
         
